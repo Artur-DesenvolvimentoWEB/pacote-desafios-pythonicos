@@ -7,7 +7,7 @@ Exemplo: donuts(S) retorna 'Number of donuts: 5' e donuts(23) retorna 'Number of
 
 def count_donuts(count):
     #minha solução!
-    if count > 10:
+    if count >= 10:
         print(f'Donuts({count}). Number of Donuts: many')
     else:
         print(f'Number of Donuts: {count}')
